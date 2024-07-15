@@ -37,6 +37,7 @@ for i in range(20, 40, 9):
 
 print("a" * 10)
 
+# While Loop mimicking a For Loop
 num = 5
 while num > 0:
     num -= 1
@@ -44,6 +45,7 @@ while num > 0:
 
 print("Finished")
 
+# While Loop repeating continuously until the user stops
 a = input("> ")
 while a != "":
     print("- " + a)
